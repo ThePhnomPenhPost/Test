@@ -1,0 +1,156 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #091a6a;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+.container {
+  max-width: 90%; /* Adjusted for better responsiveness */
+  width: 100%; /* Full width on smaller screens */
+  padding: 20px; /* Reduced padding for smaller screens */
+  background: linear-gradient(45deg, #152b8e, #4270ea, #152b8e);
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden; /* Ensure content stays within the container */
+}
+
+.profile-picture img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 28px; /* Adjusted for smaller screens */
+  color: #ffffff;
+}
+
+.city {
+  font-size: 18px; /* Adjusted for smaller screens */
+  color: #1aff00;
+}
+
+.discription {
+  font-size: 16px; /* Adjusted font size */
+  color: #d0ff00;
+  margin-bottom: 30px;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  font-size: 16px; /* Adjusted font size for social media names */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px; /* Adjusted padding for better spacing */
+  margin: 10px auto;
+  border-radius: 40px;
+  border: 2px solid white;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+  width: 90%; /* Slightly less than full width for better alignment */
+  max-width: 400px; /* Set a maximum width for larger screens */
+  position: relative; /* Needed for absolute positioning of the logo */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.button img {
+  width: 40px; /* Adjust logo size as needed */
+  height: 40px; /* Adjust logo size as needed */
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); /* Add a shadow to make the logo bold */
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.button span {
+  flex: 1; /* Allow text to take up remaining space */
+  text-align: center; /* Center the text */
+}
+
+/* Hover effects for buttons */
+.website:hover { background-color: #45a049; }
+.facebook:hover { background-color: #1877f2; }
+.twitter:hover { background-color: #1da1f2; }
+.linkedin:hover { background-color: #0077b5; }
+.telegram:hover { background-color: #0088cc; }
+.instagram:hover { background-color: #e4405f; }
+.tiktok:hover { background-color: #000000; }
+.youtube:hover { background-color: #ff0000; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; /* Reduced padding for smaller screens */
+  }
+
+  .name {
+    font-size: 24px; /* Adjusted for smaller screens */
+  }
+
+  .city {
+    font-size: 16px; /* Adjusted for smaller screens */
+  }
+
+  .discription {
+    font-size: 12px; /* Adjusted for smaller screens */
+  }
+
+  .button {
+    font-size: 14px; /* Slightly smaller font size for smaller screens */
+    padding: 8px 12px; /* Adjust padding for smaller screens */
+    width: 95%; /* Slightly wider for smaller screens */
+  }
+
+  .button img {
+    width: 30px; /* Smaller logo for smaller screens */
+    height: 30px; /* Smaller logo for smaller screens */
+    margin-right: 8px; /* Adjust spacing for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px; /* Further reduced padding for very small screens */
+    border-radius: 20px; /* Smaller border radius for very small screens */
+  }
+
+  .name {
+    font-size: 20px; /* Adjusted for very small screens */
+  }
+
+  .city {
+    font-size: 14px; /* Adjusted for very small screens */
+  }
+
+  .discription {
+    font-size: 10px; /* Adjusted for very small screens */
+  }
+
+  .button {
+    font-size: 12px; /* Smaller font size for very small screens */
+    padding: 6px 10px; /* Adjust padding for very small screens */
+    border-radius: 20px; /* Smaller border radius for very small screens */
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .button img {
+    width: 20px; /* Smaller logo for very small screens */
+    height: 20px; /* Smaller logo for very small screens */
+    margin-right: 6px; /* Adjust spacing for very small screens */
+  }
+}
