@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #152b8e;
+  background-color: #091a6a;
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
@@ -14,10 +14,10 @@ body {
 }
 
 .container {
-  max-width: 100%; /* Adjusted for better responsiveness */
+  max-width: 90%; /* Adjusted for better responsiveness */
   width: 100%; /* Full width on smaller screens */
   padding: 20px; /* Reduced padding for smaller screens */
-  background: linear-gradient(45deg, #091a6a, #4270ea, #091a6a);
+  background: linear-gradient(45deg, #152b8e, #4270ea, #152b8e);
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -46,7 +46,7 @@ body {
 }
 
 .discription {
-  font-size: 24px; /* Adjusted font size */
+  font-size: 14px; /* Adjusted font size */
   color: #d0ff00;
   margin-bottom: 30px;
 }
@@ -71,8 +71,8 @@ body {
 }
 
 .button img {
-  width: 50px; /* Adjust logo size as needed */
-  height: 50px; /* Adjust logo size as needed */
+  width: 50px; /* Fixed logo size for all devices */
+  height: 50px; /* Fixed logo size for all devices */
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); /* Add a shadow to make the logo bold */
   margin-right: 10px; /* Add spacing between logo and text */
 }
@@ -111,14 +111,14 @@ body {
   }
 
   .button {
-    font-size: 18px; /* Slightly smaller font size for smaller screens */
+    font-size: 18px; /* Slightly larger font size for smaller screens */
     padding: 8px 12px; /* Adjust padding for smaller screens */
     width: 95%; /* Slightly wider for smaller screens */
   }
 
   .button img {
-    width: 50px; /* Smaller logo for smaller screens */
-    height: 50px; /* Smaller logo for smaller screens */
+    width: 50px; /* Fixed logo size for all devices */
+    height: 50px; /* Fixed logo size for all devices */
     margin-right: 8px; /* Adjust spacing for smaller screens */
   }
 }
@@ -134,7 +134,7 @@ body {
   }
 
   .city {
-    font-size: 14px; /* Adjusted for very small screens */
+    font-size: 16px; /* Adjusted for very small screens */
   }
 
   .discription {
@@ -149,8 +149,8 @@ body {
   }
 
   .button img {
-    width: 50px; /* Smaller logo for very small screens */
-    height: 50px; /* Smaller logo for very small screens */
+    width: 50px; /* Fixed logo size for all devices */
+    height: 50px; /* Fixed logo size for all devices */
     margin-right: 7px; /* Adjust spacing for very small screens */
   }
 }
