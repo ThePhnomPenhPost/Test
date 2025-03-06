@@ -111,14 +111,14 @@ body {
   }
 
   .button {
-    font-size: 14px; /* Slightly smaller font size for smaller screens */
+    font-size: 18px; /* Slightly smaller font size for smaller screens */
     padding: 8px 12px; /* Adjust padding for smaller screens */
     width: 95%; /* Slightly wider for smaller screens */
   }
 
   .button img {
-    width: 30px; /* Smaller logo for smaller screens */
-    height: 30px; /* Smaller logo for smaller screens */
+    width: 50px; /* Smaller logo for smaller screens */
+    height: 50px; /* Smaller logo for smaller screens */
     margin-right: 8px; /* Adjust spacing for smaller screens */
   }
 }
@@ -142,7 +142,7 @@ body {
   }
 
   .button {
-    font-size: 16px; /* Smaller font size for very small screens */
+    font-size: 18px; /* Smaller font size for very small screens */
     padding: 6px 10px; /* Adjust padding for very small screens */
     border-radius: 50px; /* Smaller border radius for very small screens */
     width: 100%; /* Full width for very small screens */
