@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #091a6a;
+  background-color: #152b8e;
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
@@ -14,10 +14,10 @@ body {
 }
 
 .container {
-  max-width: 90%; /* Adjusted for better responsiveness */
+  max-width: 100%; /* Adjusted for better responsiveness */
   width: 100%; /* Full width on smaller screens */
   padding: 20px; /* Reduced padding for smaller screens */
-  background: linear-gradient(45deg, #152b8e, #4270ea, #152b8e);
+  background: linear-gradient(45deg, #091a6a, #4270ea, #091a6a);
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -46,7 +46,7 @@ body {
 }
 
 .discription {
-  font-size: 16px; /* Adjusted font size */
+  font-size: 24px; /* Adjusted font size */
   color: #d0ff00;
   margin-bottom: 30px;
 }
@@ -71,8 +71,8 @@ body {
 }
 
 .button img {
-  width: 40px; /* Adjust logo size as needed */
-  height: 40px; /* Adjust logo size as needed */
+  width: 50px; /* Adjust logo size as needed */
+  height: 50px; /* Adjust logo size as needed */
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5)); /* Add a shadow to make the logo bold */
   margin-right: 10px; /* Add spacing between logo and text */
 }
@@ -99,15 +99,15 @@ body {
   }
 
   .name {
-    font-size: 24px; /* Adjusted for smaller screens */
+    font-size: 28px; /* Adjusted for smaller screens */
   }
 
   .city {
-    font-size: 16px; /* Adjusted for smaller screens */
+    font-size: 14px; /* Adjusted for smaller screens */
   }
 
   .discription {
-    font-size: 12px; /* Adjusted for smaller screens */
+    font-size: 16px; /* Adjusted for smaller screens */
   }
 
   .button {
@@ -125,12 +125,12 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    padding: 10px; /* Further reduced padding for very small screens */
-    border-radius: 20px; /* Smaller border radius for very small screens */
+    padding: 20px; /* Further reduced padding for very small screens */
+    border-radius: 50px; /* Smaller border radius for very small screens */
   }
 
   .name {
-    font-size: 20px; /* Adjusted for very small screens */
+    font-size: 28px; /* Adjusted for very small screens */
   }
 
   .city {
@@ -138,19 +138,19 @@ body {
   }
 
   .discription {
-    font-size: 10px; /* Adjusted for very small screens */
+    font-size: 16px; /* Adjusted for very small screens */
   }
 
   .button {
-    font-size: 12px; /* Smaller font size for very small screens */
+    font-size: 16px; /* Smaller font size for very small screens */
     padding: 6px 10px; /* Adjust padding for very small screens */
-    border-radius: 20px; /* Smaller border radius for very small screens */
+    border-radius: 50px; /* Smaller border radius for very small screens */
     width: 100%; /* Full width for very small screens */
   }
 
   .button img {
-    width: 20px; /* Smaller logo for very small screens */
-    height: 20px; /* Smaller logo for very small screens */
-    margin-right: 6px; /* Adjust spacing for very small screens */
+    width: 50px; /* Smaller logo for very small screens */
+    height: 50px; /* Smaller logo for very small screens */
+    margin-right: 7px; /* Adjust spacing for very small screens */
   }
 }
